@@ -1,3 +1,9 @@
+//topbox
+  $(document).ready(function() {
+		$('.lightbox').topbox();
+	});
+
+//slider
   $(function () {
 
     $("#slider4").responsiveSlides({
