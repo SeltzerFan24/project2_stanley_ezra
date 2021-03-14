@@ -230,7 +230,7 @@ h5 {
 }
 
 .more_news {
-	margin: -10px 0 30px 0;
+	margin: -10px 0 20px 0;
 }
 /*********************END LOCAL NEWS STYLES***********************/
 
@@ -284,6 +284,21 @@ section img, .review_image {
 	max-width: 100%;
 }
 
+.culture_aside, .culture_section, .culture_main_story {
+	margin: 0 4% 25px;
+}
+
+.culture_section figcaption, .culture_aside figcaption {
+	margin-top: 10px;
+}
+
+.review_image {
+	margin-bottom: 0;
+}
+
+.culture_aside h3{
+	margin-bottom: 15px;
+}
 /*********************HOROSCOPE SLIDER STYLES***********************/
 .callbacks_container h3{
 	font-size: 1.3em;
@@ -814,7 +829,7 @@ footer p a {
 
 /*********************END FOOTER***********************/
 
-
+/*********************MEDIA QUERIES************************************************/
 @media (min-width: 420px) {
 	header img {
 		max-width: 33px;
@@ -826,6 +841,30 @@ footer p a {
 
 	.local_section ul li {
 		font-size: 1.1em;
+	}
+
+	.opinion_main_story .article_author, .opinion_container .opinion_author, .culture_main_story .article_author, .review_container figcaption {
+		font-size: 1.2em;
+	}
+
+	.callbacks_container {
+		margin-bottom: 35px;
+	}
+
+	.callbacks_container h3 {
+    font-size: 1.7em;
+	}
+
+	.culture_main_story .article_divider {
+		margin-bottom: 20px;
+	}
+
+	.culture_aside h3 {
+		font-size: 2em;
+	}
+
+	.culture_section hr {
+		margin-bottom: 25px;
 	}
 }
 
