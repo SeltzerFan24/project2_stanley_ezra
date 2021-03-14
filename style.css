@@ -234,6 +234,50 @@ h5 {
 }
 /*********************END LOCAL NEWS STYLES***********************/
 
+/*********************OPINION STYLES***********************/
+
+.opinion_main_story, .opinion_aside, .opinion_section {
+	margin: 0 4% 25px;
+}
+
+.opinion_author {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+.opinion_container h4 {
+  margin-bottom: 10px;
+}
+
+.opinion_container hr {
+	margin-bottom: 25px;
+}
+
+.opinion_section h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-size: 1.6em;
+}
+
+.opinion_section ul {
+  margin-left: 5%;
+}
+
+.opinion_section ul li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.opinion_article_divider {
+	margin: 35px 0;
+}
+/*********************END OPINION STYLES***********************/
+
 /*********************CULTURE STYLES***********************/
 
 section img, .review_image {
