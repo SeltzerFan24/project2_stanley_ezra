@@ -1361,7 +1361,7 @@ footer p a {
 	}
 
 	.opinion_section ul li {
-    font-size: 1.4em;
+	    font-size: 1.6em;
 	}
 
 	.opinion_container h4 a {
@@ -1432,13 +1432,37 @@ footer p a {
 
 @media (min-width: 1000px) {
 
-
 	.home_section ul li a {
 		font-size: 1.2em;
 	}
 
 	.local_section ul li {
 	    font-size: 1.2em;
+	}
+
+	.opinion_aside {
+		display: flex;
+		order: 2;
+		justify-content: space-around;
+		margin: 0;
+		align-items: flex-end;
+  	border-bottom: 2px solid black;
+	}
+
+	.opinion_main_story {
+		order: 3;
+	}
+
+	.opinion_container {
+		flex-basis: 30%;
+	}
+
+	.deer_container h4 a{
+		font-size: 1.5em;
+	}
+
+	.opinion_container hr {
+		display: none;
 	}
 }
 
@@ -1464,6 +1488,14 @@ footer p a {
 
 	.article_description {
     font-size: 1.1em;
+	}
+
+	.theater h4 a {
+		font-size: 1.3em;
+	}
+
+	.review_container h4 a {
+    font-size: 1.8em;
 	}
 
 	footer p {
@@ -1588,6 +1620,10 @@ footer p a {
     font-size: 1.9em;
 	}
 
+	.review_container h4 a {
+    font-size: 2em;
+	}
+	
 	.vertical_align {
 		max-width: 1500px;
 		margin: 0 auto;
