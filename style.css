@@ -299,6 +299,10 @@ section img, .review_image {
 .culture_aside h3{
 	margin-bottom: 15px;
 }
+
+.callbacks_container h3 {
+	font-family: 'Merriweather', serif;
+}
 /*********************HOROSCOPE SLIDER STYLES***********************/
 .callbacks_container h3{
 	font-size: 1.3em;
@@ -984,6 +988,53 @@ footer p a {
     font-weight: 500;
 	}
 
+	.opinion_main_story hr, .opinion_aside hr, .culture_main_story hr, .culture_section hr, .culture_aside hr {
+		display: block;
+	}
+
+	.opinion_flexbox {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.opinion_flexbox > * {
+		flex: 1 100%;
+	}
+
+	.opinion_aside, .opinion_section {
+		flex: 1 1;
+		margin-top: 10px;
+	}
+
+	.opinion_header {
+		order: 1;
+	}
+
+	.opinion_main_story {
+		order: 2;
+		margin-bottom: 0;
+	}
+
+	.opinion_section {
+		order: 3;
+		border-right: 2px solid black;
+		padding-right: 2%;
+	}
+
+	.opinion_aside {
+		order: 4;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.opinion_footer {
+		order: 5;
+	}
+
+	.opinion_container h4 a {
+    font-size: 1.5em;
+	}
+
 	footer {
 		margin-top: 5px;
 	}
@@ -1088,6 +1139,18 @@ footer p a {
 
 	.local_article_preview h4 a {
 		font-size: 1em;
+	}
+
+	.opinion_main_story {
+		font-size: 1.2em;
+	}
+
+	.opinion_section ul li {
+		font-size:1.3em;
+	}
+
+	.culture_main_story .article_description {
+		font-size: 1.2em;
 	}
 }
 
@@ -1243,6 +1306,70 @@ footer p a {
 	.local_aside_container {
     margin: 15px 0 0 0;
 		padding: 0;
+	}
+
+	.culture_flexbox {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.culture_flexbox > * {
+	flex: 1 100%;
+	}
+
+	.culture_header {
+		order: 1;
+	}
+
+	.culture_aside {
+		order: 3;
+   	margin-top: 20px;
+	}
+
+	.culture_footer {
+		order: 4;
+	}
+
+	.culture_container, .culture_aside {
+		flex: 1 1;
+	}
+
+	.culture_container {
+		order: 2;
+		flex-grow: 2;
+		border-right: 2px solid black;
+	}
+
+	.culture_section {
+		margin-bottom: 0;
+	}
+
+	.review_container h4 a {
+    font-size: 1.5em;
+	}
+
+	.theater h4 {
+		font-size: 1.5em;
+	}
+
+	.theater .article_divider_2{
+		display: none;
+	}
+
+	.culture_aside .review_bottom_hr {
+		display: none;
+	}
+
+	.opinion_section ul li {
+    font-size: 1.4em;
+	}
+
+	.opinion_container h4 a {
+    font-size: 1.7em;
+	}
+
+	.opinion_aside .deer_hr {
+		display: none;
 	}
 
  	footer {
